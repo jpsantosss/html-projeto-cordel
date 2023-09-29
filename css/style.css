@@ -16,6 +16,16 @@
     font-size: 1em;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
 .cabecalho{
     font-family: var(--fonte1);
     color: white;
@@ -48,5 +58,23 @@
     background-repeat: no-repeat;
     background-position: right center;
     background-attachment: fixed;
+    color: white;
+}
+
+.livro{
+    background-image: url('../images/background002.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-attachment: fixed;
+    color: white;
+}
+
+.rodape{
+    font-family: var(--fonte3);
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+    background-color: black;
     color: white;
 }
