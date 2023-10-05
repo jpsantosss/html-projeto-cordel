@@ -54,11 +54,17 @@ section{
     line-height: 2em;
     padding-left: 30px;
 }
+section p{
+    padding-bottom: 1em;
+}
 .normal{
     background-color: white;
     color: black;
 }
-.joaninha{
+.imagem{
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.308);
+}
+#joaninha{
     background-image: url('../images/background001.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -66,23 +72,25 @@ section{
     background-attachment: fixed;
     color: white;
 }
-section.joaninha p{
-    background-color: rgba(0, 0, 0, 0.247);
+section#joaninha p{
+    background-color: rgba(0, 0, 0, 0.459);
     display: inline-block;
     padding: 5px;
+    text-shadow: 1.5px 1.5px 1px black;
 }
-.livro{
+#livro{
     background-image: url('../images/background002.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: right center;
+    background-position: right bottom;
     background-attachment: fixed;
     color: white;
 }
-section.livro p{
-    background-color: rgba(0, 0, 0, 0.247);
+section#livro p{
+    background-color: rgba(0, 0, 0, 0.459);
     display: inline-block;
     padding: 5px;
+    text-shadow: 1.5px 1.5px 1px black;
 }
 
 .rodape{
