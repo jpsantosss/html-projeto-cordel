@@ -28,6 +28,8 @@ header.cabecalho{
 header h1{
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: var(--fonte1);
+    font-size: 10vw;
 }
 header p{
     padding-bottom: 50px;
@@ -42,10 +44,11 @@ a:hover{
 }
 .creditos{
     font-family: var(--fonte3);
-    font-size: 1.3vw;
 }
 
 section{
+    font-family: var(--fonte2);
+    font-size: 3.5vw;
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
@@ -65,7 +68,8 @@ section{
 }
 section.joaninha p{
     background-color: rgba(0, 0, 0, 0.247);
-    width: 400px;
+    display: inline-block;
+    padding: 5px;
 }
 .livro{
     background-image: url('../images/background002.jpg');
@@ -77,10 +81,9 @@ section.joaninha p{
 }
 section.livro p{
     background-color: rgba(0, 0, 0, 0.247);
-    width: 400px;
+    display: inline-block;
+    padding: 5px;
 }
-
-
 
 .rodape{
     font-family: var(--fonte3);
