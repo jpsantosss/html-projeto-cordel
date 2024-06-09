@@ -11,4 +11,4 @@ Projeto feito no Curso em Video com objetivo de incluir efeito parallax nas imag
 * HTML5
 * CSS3
 
-* Link para o projeto [Cordel Moderno](https://jpsantosss.github.io/projeto-cordel/).
+* Link para o projeto [Cordel Moderno](https://jpsantosss.github.io/html-projeto-cordel/).
